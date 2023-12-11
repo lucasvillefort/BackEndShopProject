@@ -1,13 +1,10 @@
 # BackEndShopProject
 
+# Backend
 
-#  Backend
-
-
-Seja bem vindo(a) 
+Seja bem vindo(a)
 
 Sua tarefa como desenvolvedor(a) será criar uma API para um PDV (Frente de Caixa). Esse será um projeto piloto, ou seja, no futuro outras funcionalidades serão implementadas.
-
 
 **Importante 1: Sempre que a validação de uma requisição falhar, responda com código de erro e mensagem adequada à situação, ok?**
 
@@ -34,9 +31,9 @@ Você precisa criar um Banco de Dados PostgreSQL chamado `pdv`.
 
 ## **Requisitos obrigatórios**
 
--   A API a ser criada deverá acessar o banco de dados a ser criado `pdv` para persistir e manipular os dados de categorias, clientes, pedidos, produtos e usuários utilizados pela aplicação.
--   O campo id das tabelas no banco de dados deve ser auto incremento, chave primária e não deve permitir edição uma vez criado.
--   Qualquer valor monetário deverá ser representado em centavos (Ex.: R$ 10,00 reais = 1000)
+- A API a ser criada deverá acessar o banco de dados a ser criado `pdv` para persistir e manipular os dados de categorias, clientes, pedidos, produtos e usuários utilizados pela aplicação.
+- O campo id das tabelas no banco de dados deve ser auto incremento, chave primária e não deve permitir edição uma vez criado.
+- Qualquer valor monetário deverá ser representado em centavos (Ex.: R$ 10,00 reais = 1000)
 
 ## **Status Codes**
 
@@ -61,18 +58,18 @@ Abaixo, listamos os possíveis **_status codes_** esperados como resposta da API
 <summary><b>Banco de Dados</b></summary>
 <br>
 
-Crie as seguintes tabelas e colunas abaixo: 
+Crie as seguintes tabelas e colunas abaixo:
 
 **ATENÇÃO! Os nomes das tabelas e das colunas a serem criados devem seguir exatamente os nomes listados abaixo.**
 
--   usuarios
-    -   id
-    -   nome
-    -   email (campo único)
-    -   senha
--   categorias
-    -   id
-    -   descricao
+- usuarios
+  - id
+  - nome
+  - email (campo único)
+  - senha
+- categorias
+  - id
+  - descricao
 
 </details>
 
@@ -87,15 +84,15 @@ As categorias a seguir precisam ser previamente cadastradas para que sejam lista
 
 ## **Categorias**
 
--   Informática
--   Celulares
--   Beleza e Perfumaria
--   Mercado
--   Livros e Papelaria
--   Brinquedos
--   Moda
--   Bebê
--   Games
+- Informática
+- Celulares
+- Beleza e Perfumaria
+- Mercado
+- Livros e Papelaria
+- Brinquedos
+- Moda
+- Bebê
+- Games
 
 </details>
 
@@ -108,7 +105,7 @@ Essa é a rota que será utilizada para cadastrar um novo usuário no sistema.
 
 Critérios de aceite:
 
-    - Validar os campos obrigatórios: 
+    - Validar os campos obrigatórios:
         - nome
         - email
         - senha
@@ -155,7 +152,7 @@ Essa é a rota que permite o usuário logado atualizar informações de seu pró
 
 Critérios de aceite:
 
-    - Validar os campos obrigatórios: 
+    - Validar os campos obrigatórios:
         - nome
         - email
         - senha
@@ -167,10 +164,8 @@ Critérios de aceite:
 <details>
 <summary><b>Efetuar deploy da aplicação</b></summary>
 <br>
+<summary><b>Fazer deploy do projeto e disponibilizar a URL.</b></summary>
 
-Fazer deploy do projeto e disponibilizar a URL.
-
-
-
+</details>
 
 ###### tags: `back-end` `módulo 5` `nodeJS` `PostgreSQL` `API REST` `desafio`
